@@ -1,0 +1,17 @@
+website //
+
+put email
+
+request parking now 
+ikabil email us now immediate response 24/7
+email: info@terminalexchangeservices.com
+remove: mexico US and canada lang agbati
+navbars = make it bigger (texts)
+	= hover red
+space on logo = make us of space bigger logo
+remove text map of txt location
+replaced by : map muna with border
+maximized space 
+click chicago  -> link to chicago 1 , 2, 3, 4
+
+

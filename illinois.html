@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Welcome to TXS Parking</title>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <!-- End of CSS -->
+  <script src="https://use.fontawesome.com/23cb0e0b2b.js"></script>
+
+  <!-- Fonts -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=ABeeZee">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <!-- End of fonts -->
+  
+  <style type="text/css">
+
+    #map {
+      width: 100%;
+      height: 400px;
+      background-color: #ccc;
+    }
+
+  </style>
+
+</head>
+<body class="home">
+
+
+  <!-- Body -->
+
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="jumbotron-heading">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="img/Logo.png" class="img-responsive center-block">
+        </div>
+        <div class="col-sm-8">
+          <p class="forheaders"><b><i>TXS - Terminal Exchange Services, Inc.</i></b></p>
+          <p class="fortext">Secure Trailer Parking Network Serving the U.S. & Canada</p>
+          <p class="fortext">Providing secure trailer parking service since 2007</p>
+          <p class="forheaders"><b><i>800-263-9527 Toll Free</i></b></p>
+          <p class="fortext"><i>Request Parking Now!</i></p>
+        </div>
+      </div>
+    </div>
+    <!-- End of Heading -->
+
+    <!-- Nav -->
+      <nav class="nav navbar-inverse navbar-fix-top">
+        <div class="container">
+          <div class="navbar-header">
+            <!--<a class="navbar-brand" href="index.html">TXS &nbsp;</a> -->
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="active"><a href="#">Location/Map</a></li> 
+            <li><a href="#">Contact Us</a></li> 
+          </ul>
+        </div>
+      </nav>
+    <!-- End Nav -->
+
+    <div class="container-fluid" style="background-color:#ffffff;">
+    <br/>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators --
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        </ol>-->
+
+    <p class="forheaders2 paddings"><b>Illinois</b></p>
+    <hr/>
+    <br>
+
+    <div class="row">
+      <div class="col-md-2">&nbsp;</div>
+      <div class="col-md-8">
+
+          <!-- Map Section -->
+
+      <div class="floating-panel">
+      <b>Start: </b>
+      <select id="start">
+        <option value="chicago, il">Chicago</option>
+        <option value="st louis, mo">St Louis</option>
+        <option value="joplin, mo">Joplin, MO</option>
+        <option value="oklahoma city, ok">Oklahoma City</option>
+        <option value="amarillo, tx">Amarillo</option>
+        <option value="gallup, nm">Gallup, NM</option>
+        <option value="flagstaff, az">Flagstaff, AZ</option>
+        <option value="winona, az">Winona</option>
+        <option value="kingman, az">Kingman</option>
+        <option value="barstow, ca">Barstow</option>
+        <option value="san bernardino, ca">San Bernardino</option>
+        <option value="los angeles, ca">Los Angeles</option>
+      </select>
+      <b>End: </b>
+      <select id="end">
+        <option value="chicago, il">Chicago</option>
+        <option value="st louis, mo">St Louis</option>
+        <option value="joplin, mo">Joplin, MO</option>
+        <option value="oklahoma city, ok">Oklahoma City</option>
+        <option value="amarillo, tx">Amarillo</option>
+        <option value="gallup, nm">Gallup, NM</option>
+        <option value="flagstaff, az">Flagstaff, AZ</option>
+        <option value="winona, az">Winona</option>
+        <option value="kingman, az">Kingman</option>
+        <option value="barstow, ca">Barstow</option>
+        <option value="san bernardino, ca">San Bernardino</option>
+        <option value="los angeles, ca">Los Angeles</option>
+      </select>
+    </div>
+    <div id="map"></div>
+
+      <!-- End of Map -->
+      </div>
+      <div class="col-md-2">&nbsp;</div>
+    </div>
+
+    <!-- Another section -->
+    <br>
+    <hr/>
+    <br>
+    <p class="forheaders2 paddings"><b>Chicago, Illinois</b> - Yard Details</p>
+    <p class="paddings"><b>Phone Number:</b>708-371-3800</p>
+    <p class="paddings"><b>Fax Number:</b>708-385-6979</p>
+    <br>
+    <a href="http://www.terminalexchangeservices.com/contact-parking-network.html#c-form" class="btn btn-danger paddings" target="_blank">Request Parking Now!</a>
+
+    <br><br><hr>
+    <!-- Yard Row1 Description -->
+    <div class="row paddings">
+      <div class="col-md-3 text-center" >
+       <p><h5>Asphalt&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-road fa-4x iconSet"></i>        
+      </div>
+      <div class="col-md-3 text-center">
+      <p><h5>Hard Pack&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-truck fa-4x iconSet"></i>
+      </div>
+      <div class="col-md-3 text-center">
+      <p><h5>Video Monitoring-Front Gate&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-video-camera fa-4x iconSet"></i>
+      </div>
+      <div class="col-md-3 text-center">
+      <p><h5>Lighting&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-lightbulb-o fa-4x iconSet"></i>
+      </div>
+    </div><!-- End of row description -->
+
+    <br>
+    <div class="row paddings">
+      <div class="col-md-3 text-center">
+         <p><h5>Entrance(s) Gated&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-hand-stop-o fa-4x iconSet"></i>  
+      </div>
+      <div class="col-md-3 text-center">
+         <p><h5>On Site Security&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-binoculars fa-4x iconSet"></i>  
+      </div>
+      <div class="col-md-3 text-center">
+         <p><h5>Gate Guard&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-group fa-4x iconSet"></i>  
+      </div>
+      <div class="col-md-3 text-center">
+         <p><h5>Cross-Dock&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-industry fa-4x iconSet"></i>  
+      </div>
+    </div>
+
+    <br>
+    <div class="row paddings">
+      <div class="col-md-3 text-center">
+         <p><h5>24/7 on Site Security Access&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-fax fa-4x iconSet"></i>  
+      </div>
+      <div class="col-md-3 text-center">
+         <p><h5>Yard Fenced&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-lock fa-4x iconSet"></i>  
+      </div>
+      <div class="col-md-3 text-center">
+         <p><h5>Wifi&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-wifi fa-4x iconSet"></i>  
+      </div>
+      <div class="col-md-3 text-center">
+         <p><h5>Tarsh Disposal&nbsp;&nbsp;<span class="glyphicon glyphicon-ok"></span></h5></p>
+       <i class="fa fa-trash fa-4x iconSet"></i>  
+      </div>
+    </div>
+
+    <hr/>
+    <br>
+    <p class="forheaders2 paddings"><b>Map of TXS Locations</b></p>
+    <p style="text-justify:inter-word;" class="paddings">Please enter location: City AND State OR Zip Code and Search Distance below. Increase search distance for more results. Decrease distance for fewer results. Leave address blank to see ALL TXS Locations. Click on the facility name to view each location. Closest locations are listed first.</p>
+
+
+    <p style="text-justify:inter-word;" class="paddings"><b>TXS is the first organization in the country committed to providing Secure 24/7 Trailer Parking & Drop Yard Staging Services throughout all of North America.</b> TXS provides the only National Network of facilities offering logistics companies, intermodal servers, and "over-the-road/ for-hire" carriers a safe, secure, dependable, and driver-friendly operation, dedicated to supporting their logistical needs.</p>
+
+
+    <p style="text-justify:inter-word;" class="paddings"><b>TXS is here to assist in the prevention of cargo theft!</b> Our Network is constantly seeking to grow. If you know of other secure trailer parking locations, please let us know. The more locations in the TXS Network, the better we can serve our transportation clients.</p>
+
+    <br>
+
+    <!-- End of text Section Again -->
+    
+    <p class="forheaders2 paddings"><b>Call us, anytime 24/7. We always answer our phone!</b></p>
+    
+    <br>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <p class="paddings forheaders2"><b>TXS Phone / Fax</b></p>
+        <p class="paddings"><b>800-263-9527 Toll Free <br>
+            323-725-1994 Office  <br>
+            323 516-6297 Fax </b>
+      </div>
+      <div class="col-sm-4">
+        <p class="paddings forheaders2"><b>Mailing Address</b></p>
+        <p class="paddings"><b>TXS - Terminal Exchange Services, Inc. <br>
+            P.O. Box 933  <br>
+            Montebello CA 90640 <br>
+            <u>Email Us!</u><i>(Click link to send email)</i>
+             </b></p>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/Logo.png" class="img-responsive center-block" alt="Logo">
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+      <p align="center"><small>Copyright © 2010-2016 TXS US & Canada - Terminal Exchange Services is a division of TXS, Inc.</small></p>
+    </div>
+
+    </div><!-- End of Container-Fluid -->
+
+
+  </div><!-- End of Container -->
+
+  <!-- End of Body -->
+
+
+  <!--Scripts -->
+
+   <script>
+      function initMap() {
+        var directionsService = new google.maps.DirectionsService;
+        var directionsDisplay = new google.maps.DirectionsRenderer;
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: {lat: 41.85, lng: -87.65},
+          scrollwheel: false, // disable scroll
+          disableDefaultUI: true //disable UI from google maps
+        });
+        directionsDisplay.setMap(map);
+
+        var onChangeHandler = function() {
+          calculateAndDisplayRoute(directionsService, directionsDisplay);
+        };
+        document.getElementById('start').addEventListener('change', onChangeHandler);
+        document.getElementById('end').addEventListener('change', onChangeHandler);
+      }
+
+      function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+        directionsService.route({
+          origin: document.getElementById('start').value,
+          destination: document.getElementById('end').value,
+          travelMode: 'DRIVING'
+        }, function(response, status) {
+          if (status === 'OK') {
+            directionsDisplay.setDirections(response);
+          } else {
+            window.alert('Directions request failed due to ' + status);
+          }
+        });
+      }
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBX-KHvxEL5F3c4bdkd_YVUkDqdixHYy-c&callback=initMap"></script>
+
+
+  <!-- JS -->
+  <script type="text/javascript" scr="js/bootstrap.js"></script>
+  <script type="text/javascript" scr="js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+  <!-- End of JS -->
+
+
+</body>
+</html>

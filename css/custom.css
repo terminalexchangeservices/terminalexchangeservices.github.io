@@ -1,0 +1,136 @@
+.map{
+  height: 100%;
+  margin: 0;
+}
+html,body{
+	height: 100%;
+}
+
+.jumbotron-heading {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #ffffff;
+}
+.jumbotron-heading h1,
+.jumbotron-heading .h1 {
+  color: inherit;
+}
+.jumbotron-heading p {
+  margin-bottom: 0px;
+}
+.jumbotron-heading > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron-heading,
+.container-fluid .jumbotron-heading {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 0px;
+}
+.jumbotron-heading .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron-heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .container .jumbotron-heading,
+  .container-fluid .jumbotron-heading {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron-heading h1,
+  .jumbotron-heading .h1 {
+    font-size: 63px;
+  }
+}
+.forheaders {
+	font-family:'Montserrat',serif;
+	color: #CF000F;
+	text-justify:inter-word;
+	font-size: 28px;
+  	font-weight: 200;
+  	text-align: center;
+}
+.forheaders2 {
+	font-family:'Montserrat',serif;
+	color: #CF000F;
+	text-justify:inter-word;
+	font-size: 25px;
+  	font-weight: 220;
+  	text-align: left;
+}
+.fortext {
+	font-family:'ABeeZee',serif;
+	/*color: #000000;*/
+	text-justify:inter-word;
+	font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+.home {
+	background: url(../img/bg.png) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	z-index: -1;
+}
+.special-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background: #eee;
+  background: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  font-family:'ABeeZee',serif;
+  font-size: 13px;
+}
+.paddings {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px; 
+}
+.floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+.imgSet {
+  width: 75%;
+  height: auto;
+}
+.iconSet {
+  color: #CF000F;
+}
+.setLink {
+  color: #CF000F;
+}
+a:hover {
+  color: #CF000F;
+}
+.mapStyle {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #4d4a4a;
+  border-radius: 20px;
+}

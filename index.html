@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Welcome to TXS Parking</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<!-- End of CSS -->
+
+	<!-- Fonts -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=ABeeZee">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<!-- End of fonts -->
+
+	<style>
+      #map {
+        width: 100%;
+        height: 400px;
+      }
+    </style>
+
+</head>
+<body class="home">
+
+
+	<!-- Body -->
+
+	<div class="container">
+
+		<!-- Heading -->
+		<div class="jumbotron-heading">
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="img/Logo.png" class="img-responsive center-block">
+				</div>
+				<div class="col-sm-8">
+					<p class="forheaders"><b><i>TXS - Terminal Exchange Services, Inc.</i></b></p>
+					<p class="fortext">Secure Trailer Parking Network Serving the U.S. & Canada</p>
+					<p class="fortext">Providing secure trailer parking service since 2007</p>
+					<p class="forheaders"><b><i>800-263-9527 Toll Free</i></b></p>
+					<p class="fortext"><i>Request Parking Now!</i></p>
+				</div>
+			</div>
+		</div>
+		<!-- End of Heading -->
+
+		<!-- Nav -->
+			<nav class="nav navbar-inverse navbar-fix-top">
+			  <div class="container">
+			    <div class="navbar-header">
+			      <!--<a class="navbar-brand" href="index.html">TXS &nbsp;</a> -->
+			    </div>
+			    <ul class="nav navbar-nav">
+			      <li><a href="#">Home</a></li>
+			      <li><a href="#">Services</a></li>
+			      <li class="active"><a href="#">Location/Map</a></li> 
+			      <li><a href="#">Contact Us</a></li> 
+			    </ul>
+			  </div>
+			</nav>
+		<!-- End Nav -->
+
+		<div class="container-fluid" style="background-color:#ffffff;">
+		<br/>
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators --
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			  </ol>-->
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img src="img/parking.png" alt="This is a banner picture">
+			      <div class="special-caption">
+			        <h3><p><b>Message from the President</b></p></h3>
+						<p>When searching on our locations map you will find that we do not give out exact locations, nor do we publish our locations addresses to the general public. We do this for security reasons. Before any information about our facilities is shared with anyone, TXS will verify that source is legitimate and has an actual "need to know" authentication about a specific location before this information is communicated.  -- JP Harwood</p>
+			      </div>
+			    </div>
+			  </div>
+		</div>
+		<br/>
+
+		<!-- Another section -->
+
+		<p class="forheaders2 paddings"><b>Map of TXS Locations</b></p>
+		<p style="text-justify:inter-word;" class="paddings">Please enter location: City AND State OR Zip Code and Search Distance below. Increase search distance for more results. Decrease distance for fewer results. Leave address blank to see ALL TXS Locations. Click on the facility name to view each location. Closest locations are listed first.</p>
+
+		<p class="paddings">If you do not find a TXS location near your city, please Contact Us, with a detailed request, and we will be happy to help you.</p>
+
+		<hr>
+
+		<!-- End of another section -->
+
+		<!-- Map Section -->
+		<p class="paddings forheaders"><b>Locations</b></p>
+
+		<hr>
+
+		<div class="row">
+			<div class="col-sm-3">
+				<!-- Search -->
+				<div class="input-group">
+			      <!--<input type="text" class="form-control" placeholder="Search for...">
+			      <span class="input-group-btn">
+			        <button class="btn btn-default" type="button">Go!</button>
+			      </span> -->
+			    </div><!-- /input-group -->
+			    <!-- End of search -->
+				<!-- Single button -->
+					  <button type="button" class="btn btn-default btn-block" aria-haspopup="true" aria-expanded="false" id="1">
+					    Illinois
+					  </button>
+			</div>
+			<div class="col-sm-9">
+
+				<!--Try Google Map API -->
+				<div id="map"></div>
+				<br>
+				<p>Click the marker to view details</p>
+				<!--<button type="button" class="btn btn-danger btn-lg"> View Details</button>-->
+
+				<!-- End -->
+				<br>
+			</div>
+		</div> <!-- End of row -->
+
+		<hr>
+
+		<!-- Text Section Again -->
+
+		<br>
+
+		<p style="text-justify:inter-word;" class="paddings"><b>TXS is the first organization in the country committed to providing Secure 24/7 Trailer Parking & Drop Yard Staging Services throughout all of North America.</b> TXS provides the only National Network of facilities offering logistics companies, intermodal servers, and "over-the-road/ for-hire" carriers a safe, secure, dependable, and driver-friendly operation, dedicated to supporting their logistical needs.</p>
+
+
+		<p style="text-justify:inter-word;" class="paddings"><b>TXS is here to assist in the prevention of cargo theft!</b> Our Network is constantly seeking to grow. If you know of other secure trailer parking locations, please let us know. The more locations in the TXS Network, the better we can serve our transportation clients.</p>
+
+		<br>
+
+		<!-- End of text Section Again -->
+		
+		<p class="forheaders2 paddings"><b>Call us, anytime 24/7. We always answer our phone!</b></p>
+		
+		<br>
+
+		<div class="row">
+			<div class="col-sm-4">
+				<p class="paddings forheaders2"><b>TXS Phone / Fax</b></p>
+				<p class="paddings"><b>800-263-9527 Toll Free <br>
+					  323-725-1994 Office  <br>
+					  323 516-6297 Fax </b>
+			</div>
+			<div class="col-sm-4">
+				<p class="paddings forheaders2"><b>Mailing Address</b></p>
+				<p class="paddings"><b>TXS - Terminal Exchange Services, Inc. <br>
+					  P.O. Box 933  <br>
+					  Montebello CA 90640 <br>
+					  <u>Email Us!</u><i>(Click link to send email)</i>
+					   </b></p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/Logo.png" class="img-responsive center-block" alt="Logo">
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="footer">
+			<p align="center"><small>Copyright © 2010-2016 TXS US & Canada - Terminal Exchange Services is a division of TXS, Inc.</small></p>
+		</div>
+
+		</div><!-- End of Container-Fluid -->
+
+
+	</div><!-- End of Container -->
+
+	<!-- End of Body -->
+
+
+	<!--Scripts -->
+
+	 <script>
+	 /*function initMap() {
+        var myLatLng = {lat: 41.881832, lng: -87.623177};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }*/
+
+      // aouto center map 
+
+      /*function initMap() {
+        var myLatlng = {lat: 41.881832, lng: -87.623177};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: myLatlng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'Click to zoom'
+        });
+
+        map.addListener('center_changed', function() {
+          // 3 seconds after the center of the map has changed, pan back to the
+          // marker.
+          window.setTimeout(function() {
+            map.panTo(marker.getPosition());
+          }, 5000);
+        });
+
+        marker.addListener('click', function() {
+          map.setZoom(8);
+          map.setCenter(marker.getPosition());
+        });
+      }*/
+
+       // This example displays a marker at the center of Australia.
+      // When the user clicks the marker, an info window opens.
+
+      function initMap() {
+        var Illinois = {lat: 41.881832, lng: -87.623177};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: Illinois
+        });
+
+        var contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Illinois</h1>'+
+            '<div id="bodyContent">'+
+            '<a href="illinois.html" target="_blank">'+
+            'View Details</a> '+
+            '</div>'+
+            '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+          position: Illinois,
+          map: map,
+          title: 'Illinois, Chicago'
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBX-KHvxEL5F3c4bdkd_YVUkDqdixHYy-c&callback=initMap">
+    </script>
+
+
+	<!-- JS -->
+	<script type="text/javascript" scr="js/bootstrap.js"></script>
+	<script type="text/javascript" scr="js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+	<!-- End of JS -->
+
+
+</body>
+</html>
