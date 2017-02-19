@@ -52,7 +52,7 @@ html,body{
 	font-family:'Montserrat',serif;
 	color: #CF000F;
 	text-justify:inter-word;
-	font-size: 28px;
+	font-size: 25px;
   	font-weight: 200;
   	text-align: center;
 }
@@ -60,7 +60,7 @@ html,body{
 	font-family:'Montserrat',serif;
 	color: #CF000F;
 	text-justify:inter-word;
-	font-size: 25px;
+	font-size: 23px;
   	font-weight: 220;
   	text-align: left;
 }
@@ -116,7 +116,7 @@ html,body{
   padding-left: 10px;
 }
 .imgSet {
-  width: 75%;
+  width: 70%;
   height: auto;
 }
 .iconSet {
@@ -133,4 +133,7 @@ a:hover {
   border-width: 10px;
   border-color: #4d4a4a;
   border-radius: 20px;
+}
+.setBG{
+  background-color: #ffffff;
 }
