@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^terminalexchangeservicesinc\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.terminalexchangeservicesinc\.com$
+RewriteRule ^/?$ "http\:\/\/terminalexchangeservices\.com\/" [R=301,L]
+
