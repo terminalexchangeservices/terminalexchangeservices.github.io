@@ -679,3 +679,8 @@ button.close {
   border: 0;
 }
 /*End of close button*/
+
+/*Text center*/
+.text-center {
+  text-align: center;
+}
