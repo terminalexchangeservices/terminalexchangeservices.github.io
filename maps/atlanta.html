@@ -13,7 +13,7 @@
 <meta name="keywords" content="TXS terminal Exchange Services nationwide secure truck trailer parking drop yard staging services prevent cargo theft United States Canada truck parking network full service truck parking economy trailer parking yards">
 
   <!-- InstanceEndEditable -->
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
   
   <meta name="google-site-verification" content="JKKRXgAU7jGl_G590UC_LcD6j6qB2AIhbB3c203H860" />
     
@@ -31,15 +31,11 @@
 
   <!-- Favicons
   ================================================== -->
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <link rel="shortcut icon" href="../images/favicon.ico">
+  <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png">
 
-
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/select-menu.js"></script>
     <script src="https://use.fontawesome.com/23cb0e0b2b.js"></script>  
     <!-- InstanceBeginEditable name="head" -->
     
@@ -92,7 +88,7 @@
       <a href="http://terminalexchangeservices.com/"><img class="logo" src="../images/Terminal-Exchange-Services.gif" alt="TXS Terminal Exchange Services"></a>
     </div>
     <div class="columns thirteen center">
-      <a href="http://terminalexchangeservices.com/"><img class="logosmall" src="images/txs-logo-small.jpg" alt="TXS Terminal Exchange Services"></a>
+      <a href="http://terminalexchangeservices.com/"><img class="logosmall" src="../images/txs-logo-small.jpg" alt="TXS Terminal Exchange Services"></a>
         <h1 class="company">TXS - Terminal Exchange Services, Inc.</h1>
         <h2 class="tagline">Secure Trailer Parking Network     
           Serving the U.S. &amp; Canada<br>
@@ -360,6 +356,19 @@
           scrollwheel: true, // disable scroll
           disableDefaultUI: false //disable UI from google maps
         });
+
+        // Google Map marker
+        var image = '../images/icon/icon.ico';
+        var txsMarker = new google.maps.Marker({
+          position: {lat: 33.749249, lng: -84.387314},
+          map: map,
+          icon: image,
+          draggable: false,
+          animation: google.maps.Animation.BOUNCE,
+        });
+
+        // End of Google Map marker
+        
         directionsDisplay.setMap(map);
 
         var onChangeHandler = function() {

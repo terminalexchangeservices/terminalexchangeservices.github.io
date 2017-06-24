@@ -31,15 +31,11 @@
 
   <!-- Favicons
   ================================================== -->
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <link rel="shortcut icon" href="../images/favicon.ico">
+  <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png">
 
-
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/select-menu.js"></script>
     <script src="https://use.fontawesome.com/23cb0e0b2b.js"></script>  
     <!-- InstanceBeginEditable name="head" -->
     
@@ -361,6 +357,19 @@
           scrollwheel: true, // disable scroll
           disableDefaultUI: false //disable UI from google maps
         });
+
+         // Google Map marker
+        var image = '../images/icon/icon.ico';
+        var txsMarker = new google.maps.Marker({
+          position: {lat: 27.506748, lng: -99.502914},
+          map: map,
+          icon: image,
+          draggable: false,
+          animation: google.maps.Animation.BOUNCE,
+        });
+
+        // End of Google Map marker
+
         directionsDisplay.setMap(map);
 
         var onChangeHandler = function() {
